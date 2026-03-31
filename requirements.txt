@@ -1,35 +1,6 @@
-# ── Credit Card Fraud Detection — Requirements ──────────────────────────────
-# Generated from: venv\Scripts\pip freeze  (2026-03-31)
-# Install with:   pip install -r requirements.txt
-# ────────────────────────────────────────────────────────────────────────────
-
-# Core Data & ML
-numpy==2.4.4
-pandas==2.3.3
-scikit-learn==1.8.0
-scipy==1.17.1
-joblib==1.5.3
-
-# Imbalanced learning (SMOTE)
-imbalanced-learn>=0.11.0
-
-# Gradient Boosting
-xgboost==3.2.0
-
-# Deep Learning (ANN — for training only; app uses numpy inference)
-keras==3.13.2
-
-# HDF5 model loading (used by app.py — no TensorFlow needed)
-h5py==3.14.0
-
-# Visualization
-matplotlib==3.10.8
-seaborn==0.13.2
-plotly==6.6.0
-
-# Streamlit web app
-streamlit==1.55.0
-
-# Jupyter Notebook
-ipykernel==7.2.0
-notebook>=7.0.0
+streamlit
+scikit-learn
+pandas
+numpy
+xgboost
+imblearn
